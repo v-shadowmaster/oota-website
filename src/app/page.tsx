@@ -293,11 +293,6 @@ export default function Home() {
                   transparency and fairness across the platform.
                 </p>
 
-                <p className="text-white/70">
-                  It&apos;s not possible to invoke a client function from the
-                  server
-                </p>
-
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
                   {[
                     {
