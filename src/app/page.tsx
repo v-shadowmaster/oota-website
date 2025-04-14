@@ -119,7 +119,7 @@ export default function Home() {
               </h2>
               <p className="text-white/40 text-xs mt-4">
                 We&apos;re revolutionizing food delivery with transparency,
-                technology, and a commitment to both restaurants and customers.
+                technology, and a commitment to both restaurants and customers..
               </p>
             </div>
 
