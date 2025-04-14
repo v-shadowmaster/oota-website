@@ -51,7 +51,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white font-sans overflow-hidden">
       {/* Subtle grid overlay */}
-      <div className="fixed inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMyMDIwMjAiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDM0aDR2MWgtNHYtMXptMC0yaDF2NGgtMXYtNHptMi0yaDF2MWgtMXYtMXptLTIgMmgxdjFoLTF2LTF6bS0yLTJoMXYxaC0xdi0xem0yLTJoMXYxaC0xVjI4em0tMiAyaDF2MWgtMXYtMXptLTIgMGgxdjFoLTF2LTF6bS0yIDBoMXYxaC0xdi0xem0tMiAwaDF2MWgtMXYtMXptLTIgMGgxdjFoLTF2LTF6bS0yIDBoMXYxaC0xdi0xem0tMiAwaDF2MWgtMXYtMXptLTIgMGgxdjFoLTF2LTF6bS0yIDBoMXYxaC0xdi0xem0tMiAwaDF2MWgtMXYtMXptLTIgMGgxdjFoLTF2LTF6bS0yIDBoMXYxaC0xdi0xem0tMiAwaDF2MWgtMXYtMXptLTIgMGgxdjFoLTF2LTF6bS0yIDBoMXYxaC0xdi0xeiIvPjwvZz48L2c+PC9zdmc+')] opacity-30 pointer-events-none"></div>
+      <div className="fixed inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMyMDIwMjAiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PHBhdGggZD0iTTM2IDM0aDR2MWgtNHYtMXptMC0yaDF2NGgtMXYtNHptMi0yaDF2MWgtMXYtMXptLTIgMmgxdjFoLTF2LTF6bS0yLTJoMXYxaC0xdi0xem0yLTJoMXYxaC0xdi0xem0tMiAyaDF2MWgtMXYtMXptLTIgMGgxdjFoLTF2LTF6bS0yIDBoMXYxaC0xdi0xem0tMiAwaDF2MWgtMXYtMXptLTIgMGgxdjFoLTF2LTF6bS0yIDBoMXYxaC0xdi0xem0tMiAwaDF2MWgtMXYtMXptLTIgMGgxdjFoLTF2LTF6bS0yIDBoMXYxaC0xdi0xem0tMiAwaDF2MWgtMXYtMXptLTIgMGgxdjFoLTF2LTF6bS0yIDBoMXYxaC0xdi0xeiIvPjwvZz48L2c+PC9zdmc+')] opacity-30 pointer-events-none"></div>
 
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-md border-b border-emerald-900/30">
@@ -209,8 +209,8 @@ export default function Home() {
                 </h2>
                 <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-emerald-500 to-emerald-400"></div>
               </div>
-              <p className="text-white/70 max-w-2xl mx-auto text-lg">
-                We're revolutionizing food delivery with transparency,
+              <p className="text-white/70 text-lg">
+                We&apos;re revolutionizing food delivery with transparency,
                 technology, and a commitment to both restaurants and customers.
               </p>
             </div>
@@ -293,6 +293,11 @@ export default function Home() {
                   transparency and fairness across the platform.
                 </p>
 
+                <p className="text-white/70">
+                  It&apos;s not possible to invoke a client function from the
+                  server
+                </p>
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
                   {[
                     {
@@ -339,7 +344,7 @@ export default function Home() {
                     How Oota Leverages ONDC:
                   </p>
                   <p className="text-white/70">
-                    By building on ONDC's infrastructure, Oota eliminates
+                    By building on ONDC&apos;s infrastructure, Oota eliminates
                     intermediary fees, enabling direct connections between
                     restaurants and customers. This allows us to offer a
                     zero-commission model where restaurants retain more profit
@@ -398,8 +403,8 @@ export default function Home() {
                 <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-24 h-1 bg-gradient-to-r from-emerald-500 to-emerald-400"></div>
               </div>
               <p className="text-white/70 max-w-2xl mx-auto text-lg">
-                Join these industry leaders who are already excited about Oota's
-                revolutionary approach
+                Join these industry leaders who are already excited about
+                Oota&apos;s revolutionary approach
               </p>
             </div>
 
@@ -422,7 +427,7 @@ export default function Home() {
               {[
                 {
                   quote:
-                    "Oota's zero-commission model is exactly what the industry needs. This will revolutionize how restaurants connect with customers.",
+                    "Oota&apos;s zero-commission model is exactly what the industry needs. This will revolutionize how restaurants connect with customers.",
                   author: "Rahul Mehta",
                   position: "Executive Chef, Spice Garden",
                   gradient: "from-emerald-900/20 to-emerald-900/10",
@@ -430,7 +435,7 @@ export default function Home() {
                 },
                 {
                   quote:
-                    "The transparency and technology behind Oota is impressive. We're excited to be one of the first partners on this platform.",
+                    "The transparency and technology behind Oota is impressive. We&apos;re excited to be one of the first partners on this platform",
                   author: "Priya Sharma",
                   position: "Owner, Coastal Flavors",
                   gradient: "from-emerald-900/20 to-emerald-900/10",
@@ -445,7 +450,7 @@ export default function Home() {
                     className={`relative ${testimonial.border} border p-10 h-full bg-black`}
                   >
                     <div className="text-6xl font-black text-gradient-to-r from-emerald-500/10 to-emerald-500/10 mb-6">
-                      "
+                      &quot;
                     </div>
                     <p className="text-white/90 text-xl italic mb-8 leading-relaxed">
                       {testimonial.quote}
