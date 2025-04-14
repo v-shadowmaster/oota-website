@@ -117,8 +117,8 @@ export default function Home() {
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 WHY CHOOSE OOTA
               </h2>
-              <p className="text-white/70 max-w-2xl mx-auto">
-                We're revolutionizing food delivery with transparency,
+              <p className="text-white/40 text-xs mt-4">
+                We&apos;re revolutionizing food delivery with transparency,
                 technology, and a commitment to both restaurants and customers.
               </p>
             </div>
@@ -236,7 +236,7 @@ export default function Home() {
                       </span>
                     </button>
                   </div>
-                  <p className="text-white/40 text-xs mt-4">
+                  <p className="text-white/40 text-sm">
                     We respect your privacy. Your information will never be
                     shared with third parties.
                   </p>
